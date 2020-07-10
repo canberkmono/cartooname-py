@@ -6,7 +6,7 @@ import numpy as np
 import pdb
 import os
 import scipy.misc
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 import time
 import json
 import subprocess
