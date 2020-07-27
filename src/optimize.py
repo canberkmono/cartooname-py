@@ -232,5 +232,3 @@ def convert_flexible_coremodel(model_path, input_name, output_name):
     model_spec = coremltools.utils.load_spec(model_path)
     model_fp16_spec = coremltools.utils.convert_neural_network_spec_weights_to_fp16(model_spec)
     coremltools.utils.save_spec(model_fp16_spec, model_path)
-
-
